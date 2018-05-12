@@ -10,11 +10,11 @@ Seran ignorados todos los emails recibidos que no traten sobre asuntos laborales
 
 <form method="post" action="https://formspree.io/{{ site.email }}">
   <div class="row">
-    <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Nombre" /></div>
-    <div class="6u$ 12u$(mobile)"><input type="email" name="email" placeholder="Email" /></div>
-    <div class="12u$"><input type="text" name="name" placeholder="Asunto" /></div>
+    <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Nombre" requided></div>
+    <div class="6u$ 12u$(mobile)"><input type="email" name="email" placeholder="Email" requided></div>
+    <div class="12u$"><input type="text" name="name" placeholder="Asunto" requided></div>
     <div class="12u$">
-      <textarea name="message" placeholder="Mensaje"></textarea>
+      <textarea name="message" placeholder="Mensaje" requided></textarea>
     </div>
     <div class="12u$">
       <input type="submit" value="Enviar" />
