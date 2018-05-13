@@ -3,7 +3,7 @@ title: Instalar en producción LAMP de Ubuntu 16.04 con Apache, PHP 7, MySQL y S
 layout: post
 ---
 
-# Instalar en producción LAMP de Ubuntu 16.04 con Apache, PHP 7, MySQL y SSL
+# Instalar en producción LAMP de Ubuntu 16.04 con Apache 2.4, PHP 7, MySQL y SSL
 
 ## Instalar MySQL
 Ejecutar:
