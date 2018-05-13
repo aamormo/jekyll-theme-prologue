@@ -8,7 +8,7 @@ order: 4
 
 <p>Todos los campos del formulario son obligatorios.</p>
 
-<!-- <form method="post" action="https://formspree.io/{{ site.email }}"> -->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <form method="post" accept-charset="UTF-8" action="https://usebasin.com/f/d9ea8078b2cf">
   <div class="row">
     <div class="6u 12u$(mobile)"><input type="text" id="name" name="name" placeholder="Nombre" requided></div>
@@ -16,6 +16,9 @@ order: 4
     <div class="12u$"><input type="text" id="asunto" name="asunto" placeholder="Asunto" requided></div>
     <div class="12u$">
       <textarea name="message" placeholder="Mensaje" requided></textarea>
+    </div>
+    <div class="6u$">
+      <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy">
     </div>
     <div class="6u$">
       <input type="submit" value="Enviar" />
