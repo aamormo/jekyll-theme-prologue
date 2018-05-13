@@ -1,3 +1,8 @@
+---
+title: Instalar WordPress en producción
+layout: post
+---
+
 # Instalar WordPress en producción
 
 + en el directorio /opt tenemos que crear un directorio llamado wordpress, para ello debemos llegar a él moviéndonos a traves de los directorios usando la línea de comandos del PuTTY. Si se ha iniciado sesión como root, el terminal nos colocara en el directorio /root, con lo que tendremos que subir un nivel en la estructura de directorios para colocarnos en la raiz.
