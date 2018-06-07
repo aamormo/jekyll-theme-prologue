@@ -1,23 +1,27 @@
 ---
-title: Contact
+title: Contacto
 icon: fa-envelope
 order: 4
 ---
 
-<p>Elementum sem parturient nulla quam placerat viverra
-mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+<p>Siempre estoy interesado en nuevos proyectos, si cree que podemos colaborar juntos o le queda alguna 
+  duda, envíeme un email y le responderé lo antes posible.</p>
+<p>Todos los campos del formulario son obligatorios.</p>
 
-<form method="post" action="https://formspree.io/{{ site.email }}">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<form method="post" accept-charset="UTF-8" action="https://usebasin.com/f/d9ea8078b2cf">
   <div class="row">
-    <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
-    <div class="6u$ 12u$(mobile)"><input type="text" name="email" placeholder="Email" /></div>
+    <div class="6u 12u$(mobile)"><input type="text" id="name" name="name" placeholder="Nombre" requided></div>
+    <div class="6u$ 12u$(mobile)"><input type="email" id="email" name="email" placeholder="Email" requided></div>
+    <div class="12u$"><input type="text" id="asunto" name="asunto" placeholder="Asunto" requided></div>
     <div class="12u$">
-      <textarea name="message" placeholder="Message"></textarea>
+      <textarea name="message" placeholder="Mensaje" requided></textarea>
     </div>
-    <div class="12u$">
-      <input type="submit" value="Send Message" />
+    <div class="6u$">
+      <div class="g-recaptcha" data-sitekey="6Lew3SMUAAAAAJ82QoS7gqOTkRI_dhYrFy1f7Sqy">
+    </div>
+    <div class="6u$">
+      <input type="submit" value="Enviar" />
     </div>
   </div>
 </form>
